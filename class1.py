@@ -42,7 +42,6 @@ print testDf.loc['1999-01-26']['Close']
 example = pd.DataFrame(testDf['Close'])
 example = example.append(133,ignore_index=True)
 
-
 test = pd.DataFrame(index=None,columns=['a','b','c'])
 #test = test.append({'Ticker':'NVDA','Open': 176,'Close': 200},ignore_index=True)
 #test = test.append({'Ticker':'NVDA','Open': 176,'Close': 200},ignore_index=True)
